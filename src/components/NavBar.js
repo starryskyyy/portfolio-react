@@ -3,9 +3,9 @@ import { NavLink } from 'react-router-dom';
 
 export default function NavBar() {
     return (
-        <nav class="flex items-center justify-between flex-wrap bg-primary-2 rounded-t-md border-solid border-b border-lines text-lg">
+        <nav class="flex items-center justify-between flex-wrap bg-primary-2 rounded-t-md border-solid border-b border-lines">
             <div class="border-r pr-6 border-lines border-solid">
-                <div class="flex items-center flex-shrink-0 text-white ml-6 mr-40 my-3 ">
+                 <div class="flex items-center flex-shrink-0 text-white ml-6 mr-40 my-3 p-1">
                     <span class="text-secondary-1">elizaveta-vygovskaia</span>
                 </div>
             </div>
