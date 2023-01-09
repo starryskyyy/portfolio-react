@@ -1,12 +1,15 @@
 import React from 'react'
 import NavBar from './NavBar';
+import Footer from './Footer';
 
 export default function About() {
     return (
-
-        <div className="w-full h-full bg-primary-2 border-solid border border-lines rounded-md">
-            <NavBar />
-            <div>About</div>
+        <div className="w-full bg-primary-2 border-solid border border-lines rounded-md h-full">
+            <div class="flex flex-col h-full justify-between">
+                <header class="h-auto"><NavBar /></header>
+                <main class="mb-auto">About</main>
+                <footer class="h-auto"><Footer /></footer>
+            </div>
         </div>
     )
 }

@@ -10,7 +10,7 @@ export default function NavBar() {
                 </div>
             </div>
             <div class="w-full  block flex-grow lg:flex lg:items-center lg:w-auto ">
-                <div class="text-sm lg:flex-grow h-full top-nav">
+                <div class="text-sm lg:flex-grow h-full w-auto">
                          <div class="inline-block  h-14 border-r  border-lines border-solid">
                             <NavLink to="/" exact activeClassName="active">_hello</NavLink>
                         </div>
