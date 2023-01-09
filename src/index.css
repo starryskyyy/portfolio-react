@@ -19,15 +19,16 @@ body {
  #root{ 
     height: 100%;
  }
- a {
-  @apply block mt-4 lg:inline-block lg:mt-0 text-secondary-1 mr-4;
+  a {
+  @apply block lg:inline-block lg:mt-0 text-secondary-1 mr-4 text-center p-3 text-lg w-full;
   }
+
   a:hover{
     @apply hover:text-white;
   }
-  a.active {
-    @apply block mt-4 lg:inline-block lg:mt-0  hover:text-white mr-4;
-   }
+  .active{
+    @apply border-b-4 border-accent-1 border-solid text-white
+  }   
    .wrapper {
     max-width: 960px;
     width: 100%; 
