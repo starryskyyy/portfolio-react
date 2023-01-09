@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -6,7 +6,7 @@
 
 @layer base {
   html {
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Fira Code', monospace !important;
     height: 100%;
   }
   
@@ -20,7 +20,7 @@ body {
     height: 100%;
  }
   a {
-  @apply block lg:inline-block lg:mt-0 text-secondary-1 mr-4 text-center p-3 text-lg w-full;
+  @apply block lg:inline-block lg:mt-0 text-secondary-1 mr-4 text-center p-4 w-full;
   }
 
   a:hover{

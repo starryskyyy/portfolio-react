@@ -17,6 +17,9 @@ module.exports = {
         'accent-4': '#C98BDF',
         'lines': '#1E2D3D',
       },
+      spacing: {
+        '160': '40rem',
+      }
     },
   },
   plugins: [],
