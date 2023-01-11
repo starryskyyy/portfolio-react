@@ -181,7 +181,13 @@ img:nth-child(4) {
   bottom:0;
   right:0;
 }
-
+.arrows-img{
+ margin-left: 24px !important;
+ margin-top: 25px !important;
+ width: auto;
+ height: auto;
+ position: relative !important;
+}
 }
 
 
