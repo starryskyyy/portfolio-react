@@ -5,7 +5,7 @@ export default function Footer() {
         <footer class="text-center lg:text-left bg-primary-2 text-secondary-1 border-t border-lines border-solid h-full">
             <div class="flex justify-center items-center h-full"> 
                 <div class="flex justify-center pt-3 pb-3"> 
-                    <a href="#!" class="mr-6 text-secondary-1">
+                    <a href="https://www.instagram.com/vy_elizabeth/" target="_blank" rel="noopener noreferrer" class="mr-6 text-secondary-1">
                         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram"
                             class="w-3.5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
                             <path fill="currentColor"
@@ -13,7 +13,7 @@ export default function Footer() {
                             </path>
                         </svg>
                     </a>
-                    <a href="#!" class="mr-6 text-secondary-1">
+                    <a href="https://www.linkedin.com/in/elizavetav/" target="_blank" rel="noopener noreferrer" class="mr-6 text-secondary-1">
                         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="linkedin-in"
                             class="w-3.5" role="img" xmlns="http://www.w3.org/2000/svg"
                             viewBox="0 0 448 512">
@@ -22,7 +22,7 @@ export default function Footer() {
                             </path>
                         </svg>
                     </a>
-                    <a href="#!" class="text-secondary-1">
+                    <a href="https://github.com/starryskyyy" target="_blank" rel="noopener noreferrer" class="text-secondary-1">
                         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github"
                             class="w-4" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512">
                             <path fill="currentColor"
