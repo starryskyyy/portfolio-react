@@ -30,7 +30,9 @@ body {
     @apply hover:text-white;
   }
   .active{
-    @apply border-b-4 border-accent-1 border-solid text-white
+    color: white !important;
+
+    @apply border-b-4 border-accent-1 border-solid 
   }   
    .wrapper {
     max-width: 960px;
@@ -188,12 +190,61 @@ img:nth-child(4) {
  height: auto;
  position: relative !important;
 }
+.icon,
+.text {
+  vertical-align: middle;
+  display: inline-block;
+}
+.cardSpan{
+  margin-top:5px !important; 
+}
+.AccordionChevron {
+  transition: transform 300ms;
+}
+.AccordionTrigger[data-state='open'] > .AccordionChevron {
+  transform: rotate(90deg);
+}
+.AccordionContent {
+  overflow: hidden;
+}
+.AccordionContent[data-state='open'] {
+  animation: slideDown 300ms ease-out;
+}
+.AccordionContent[data-state='closed'] {
+  animation: slideUp 300ms ease-out;
+}
+
+@keyframes slideDown {
+  from {
+    height: 0;
+  }
+  to {
+    height: var(--radix-accordion-content-height);
+  }
+}
+
+@keyframes slideUp {
+  from {
+    height: var(--radix-accordion-content-height);
+  }
+  to {
+    height: 0;
+  }
+}
+.AccordionTrigger {
+  font-family: inherit;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
 @media screen and (max-width: 1500px) {
   #parent{
     margin-left: 120px;
     margin-top: 100px;
   }
 }
+
 }
 
 
