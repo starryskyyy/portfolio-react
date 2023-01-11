@@ -21,8 +21,6 @@ export default function Home() {
                                     sequence={[
                                         '> Back-end developer',
                                         1000,
-                                        '> Software developer',
-                                        1000,
                                         '> Full-stack developer',
                                         1000,
                                     ]}
