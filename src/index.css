@@ -15,15 +15,18 @@ body {
     margin: 0;
     height: 100%;
     padding: 30px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
  #root{ 
     height: 100%;
  }
-  a {
+  .nav a {
   @apply block lg:inline-block lg:mt-0 text-secondary-1 mr-4 text-center p-4 w-full;
   }
 
-  a:hover{
+  .nav a:hover{
     @apply hover:text-white;
   }
   .active{
@@ -130,6 +133,55 @@ body {
         font-size: 8px;
     }
   }
+  .desc-git {
+    display: none;
+}
+
+div.slide-right {
+    width: 100%;
+    overflow: hidden;
+}
+
+div.slide-right h2 {
+    animation: 5s slide-right;
+}
+
+@keyframes slide-right {
+    from {
+        margin-left: -48%;
+        width: 300%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+#parent  {
+  position:relative;
+}
+#parent img {
+  position:absolute;
+  margin:0;
+  padding:5px;
+}
+img:nth-child(1) {
+  top:0;
+  left:0;    
+}
+img:nth-child(2) {
+  top:0;
+  right:0;
+}
+img:nth-child(3) {
+  bottom:0;
+  left:0;
+}
+img:nth-child(4) {
+  bottom:0;
+  right:0;
+}
+
 }
 
 

@@ -16,9 +16,12 @@ module.exports = {
         'accent-3': '#E99287',
         'accent-4': '#C98BDF',
         'lines': '#1E2D3D',
+        'gradient-1': '#1e645c',
+        'gradient-2': '#1d3e67'
       },
       spacing: {
-        '160': '40rem',
+        '120': '30rem',
+        '108': '27rem'
       }
     },
   },

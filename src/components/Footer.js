@@ -4,7 +4,7 @@ export default function Footer() {
     return (
         <footer class="text-center lg:text-left bg-primary-2 text-secondary-1 border-t border-lines border-solid h-full">
             <div class="flex justify-center items-center h-full"> 
-                <div class="flex justify-center"> 
+                <div class="flex justify-center pt-3 pb-3"> 
                     <a href="#!" class="mr-6 text-secondary-1">
                         <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram"
                             class="w-3.5" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
