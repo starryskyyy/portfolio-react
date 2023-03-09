@@ -34,11 +34,17 @@ body {
 
     @apply border-b-4 border-accent-1 border-solid 
   }   
+  .active-side{
+    color: white !important;
+  }
    .wrapper {
     max-width: 960px;
     width: 100%; 
     margin: 30px auto;
     transform: scale(0.8);
+  }
+  .side-bar{
+    color: #607B96;
   }
   * {
     border: 0;
@@ -206,6 +212,7 @@ img:nth-child(4) {
 }
 .AccordionContent {
   overflow: hidden;
+  margin: 25px;
 }
 .AccordionContent[data-state='open'] {
   animation: slideDown 300ms ease-out;
