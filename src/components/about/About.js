@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import NavBar from "./NavBar";
-import Footer from "./Footer";
-import ProfessionalInfo from "./ProfessionalSideBar";
-import Hobbies from "./HobbiesSideBar";
-import PersonalSideBar from "./PersonalSideBar";
+import NavBar from "../NavBar";
+import Footer from "../Footer";
+import ProfessionalInfo from "../side-bars/ProfessionalSideBar";
+import Hobbies from "../side-bars/HobbiesSideBar";
+import PersonalSideBar from "../side-bars/PersonalSideBar";
 
 export default function About(props) {
   
