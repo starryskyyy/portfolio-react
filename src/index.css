@@ -269,6 +269,8 @@ img:nth-child(4) {
 ::-webkit-scrollbar-thumb:hover {
   background-color: #718096;
 }
-
+.hljs {
+  background-color: #2D2D2D !important;
+}
 
 
