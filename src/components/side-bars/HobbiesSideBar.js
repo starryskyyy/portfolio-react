@@ -4,6 +4,7 @@ import { TriangleRightIcon } from '@radix-ui/react-icons';
 import SocialMedia from '../about/socials/SocialMedia'
 import Games from '../about/socials/Games'
 import Music from '../about/socials/Music'
+import CodeShowcase from '../about/CodeShowcase';
 
 export default function HobbiesSideBar() {
     const [active, setActive] = useState(1);
@@ -50,7 +51,7 @@ export default function HobbiesSideBar() {
     return (
         <div div class="h-full">
             <div class="h-full flex flex-row ...">
-                <div class="w-60 h-full h-full border-solid border-r border-lines" id="sidenavExample">
+                <div class="w-72 h-full h-full border-solid border-r border-lines" id="sidenavExample">
                     <Accordion.Root class="text-white" type="multiple" collapsible defaultValue={["item-1"]}>
                         <Accordion.Item value="item-1">
                             <Accordion.Header class="border-solid border-b border-lines p-2">
@@ -74,7 +75,7 @@ export default function HobbiesSideBar() {
                     </Accordion.Root>
                 </div>
                 <div className="h-full w-1/2 border-solid border-r border-lines">{activeComponent}</div>
-                <div className="p-10">03</div>
+                <div className="p-10 w-1/2"><CodeShowcase/></div>
             </div>
         </div >
     )
