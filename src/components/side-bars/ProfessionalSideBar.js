@@ -2,7 +2,9 @@ import React, { useState } from 'react'
 import * as Accordion from '@radix-ui/react-accordion';
 import { TriangleRightIcon } from '@radix-ui/react-icons';
 import Development from '../about/professional-info/Development';
-
+import Skills from '../about/professional-info/Skills';
+import Certificates from '../about/professional-info/Certificates';
+import Resume from '../about/professional-info/Resume';
 
 export default function ProfessionalSideBar() {
     const [active, setActive] = useState(1);
@@ -43,10 +45,13 @@ export default function ProfessionalSideBar() {
             activeComponent = <Development/>;
             break;
         case 2:
-            activeComponent = null;
+            activeComponent = <Skills/>;
             break;
         case 3:
-            activeComponent = null;
+            activeComponent = <Certificates/>;
+            break;
+        case 4:
+            activeComponent = <Resume/>
             break;
         default:
             activeComponent = null;
