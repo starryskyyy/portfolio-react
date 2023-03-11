@@ -1,6 +1,9 @@
 import React, { useState } from 'react'
 import * as Accordion from '@radix-ui/react-accordion';
 import { TriangleRightIcon } from '@radix-ui/react-icons';
+import SocialMedia from '../about/socials/SocialMedia'
+import Games from '../about/socials/Games'
+import Music from '../about/socials/Music'
 
 export default function HobbiesSideBar() {
     const [active, setActive] = useState(1);
@@ -25,31 +28,54 @@ export default function HobbiesSideBar() {
             color: "rgba(67,217,173,1)"
         }
     ];
-    
 
+    const handleItemClick = (pageName, itemId) => {
+        setActive(itemId);
+    };
+
+    let activeComponent;
+    switch (active) {
+        case 1:
+            activeComponent = <SocialMedia />;
+            break;
+        case 2:
+            activeComponent = <Games/>;
+            break;
+        case 3:
+            activeComponent = <Music/>;
+            break;
+        default:
+            activeComponent = null;
+    }
     return (
-        <div class="w-60 h-full " id="sidenavExample">
-            <Accordion.Root class="text-white" type="multiple" collapsible defaultValue={["item-1"]}>
-                <Accordion.Item value="item-1">
-                    <Accordion.Header class="border-solid border-b border-lines p-2">
-                        <Accordion.Trigger className="AccordionTrigger">
-                            <TriangleRightIcon className="AccordionChevron" aria-hidden />
-                            <span class="ml-4">social</span>
-                        </Accordion.Trigger>
-                    </Accordion.Header>
-                    <Accordion.Content className="AccordionContent">
-                        {values.map((val) => (
-                            <a href="#" onClick={() => setActive(val.id)}>
-                                <span class="icon pr-2">
-                                    <svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18"><path fill="none" d="M0 0h24v24H0z" /><path d={val.svgPath} fill={val.color} /></svg>
-                                </span>
-                                <span  class={active === val.id ? "text-white" : "text-secondary-1"}>{val.name}</span>
-                                <br/><br/>
-                            </a>
-                        ))}
-                    </Accordion.Content>
-                </Accordion.Item>
-            </Accordion.Root>
-        </div>
+        <div div class="h-full">
+            <div class="h-full flex flex-row ...">
+                <div class="w-60 h-full h-full border-solid border-r border-lines" id="sidenavExample">
+                    <Accordion.Root class="text-white" type="multiple" collapsible defaultValue={["item-1"]}>
+                        <Accordion.Item value="item-1">
+                            <Accordion.Header class="border-solid border-b border-lines p-2">
+                                <Accordion.Trigger className="AccordionTrigger">
+                                    <TriangleRightIcon className="AccordionChevron" aria-hidden />
+                                    <span class="ml-4">social</span>
+                                </Accordion.Trigger>
+                            </Accordion.Header>
+                            <Accordion.Content className="AccordionContent">
+                                {values.map((val) => (
+                                    <a href="#" onClick={() => setActive(val.id)}>
+                                        <span class="icon pr-2">
+                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18"><path fill="none" d="M0 0h24v24H0z" /><path d={val.svgPath} fill={val.color} /></svg>
+                                        </span>
+                                        <span class={active === val.id ? "text-white" : "text-secondary-1"}>{val.name}</span>
+                                        <br /><br />
+                                    </a>
+                                ))}
+                            </Accordion.Content>
+                        </Accordion.Item>
+                    </Accordion.Root>
+                </div>
+                <div className="h-full w-1/2 border-solid border-r border-lines">{activeComponent}</div>
+                <div className="p-10">03</div>
+            </div>
+        </div >
     )
 }

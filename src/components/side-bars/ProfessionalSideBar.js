@@ -42,16 +42,16 @@ export default function ProfessionalSideBar() {
     let activeComponent;
     switch (active) {
         case 1:
-            activeComponent = <Development/>;
+            activeComponent = <Development />;
             break;
         case 2:
-            activeComponent = <Skills/>;
+            activeComponent = <Skills />;
             break;
         case 3:
-            activeComponent = <Certificates/>;
+            activeComponent = <Certificates />;
             break;
         case 4:
-            activeComponent = <Resume/>
+            activeComponent = <Resume />
             break;
         default:
             activeComponent = null;
