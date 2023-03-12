@@ -23,84 +23,70 @@ export default function Projects() {
         {
             title: 'Project 1',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-            imageUrl: 'https://via.placeholder.com/350x250',
+            imageUrl: 'https://snipboard.io/u8YKdZ.jpg',
             projectUrl: 'https://example.com/project1',
             tags: ['React', 'Tailwind']
         },
         {
             title: 'Project 2',
             description: 'Nulla euismod aliquam erat, eget consectetur quam suscipit nec.',
-            imageUrl: 'https://via.placeholder.com/350x250',
+            imageUrl: 'https://snipboard.io/hp0VeD.jpg',
             projectUrl: 'https://example.com/project2',
             tags: ['React', 'Firebase']
         },
         {
             title: 'Project 3',
             description: 'Morbi fermentum, ipsum sit amet auctor tincidunt, justo quam accumsan metus, sit amet malesuada odio lorem quis neque.',
-            imageUrl: 'https://via.placeholder.com/350x250',
+            imageUrl: 'https://snipboard.io/67csKY.jpg',
             projectUrl: 'https://example.com/project3',
             tags: ['Node.js', 'MongoDB']
         },
         {
             title: 'Project 3',
             description: 'Morbi fermentum, ipsum sit amet auctor tincidunt, justo quam accumsan metus, sit amet malesuada odio lorem quis neque.',
-            imageUrl: 'https://via.placeholder.com/350x250',
+            imageUrl: 'https://snipboard.io/dc4zaZ.jpg',
             projectUrl: 'https://example.com/project3',
             tags: ['Node.js', 'MongoDB']
         },
         {
             title: 'Project 3',
             description: 'Morbi fermentum, ipsum sit amet auctor tincidunt, justo quam accumsan metus, sit amet malesuada odio lorem quis neque.',
-            imageUrl: 'https://via.placeholder.com/350x250',
+            imageUrl: 'https://snipboard.io/j0M4sm.jpg',
             projectUrl: 'https://example.com/project3',
             tags: ['Node.js', 'MongoDB']
         },
         {
             title: 'Project 3',
             description: 'Morbi fermentum, ipsum sit amet auctor tincidunt, justo quam accumsan metus, sit amet malesuada odio lorem quis neque.',
-            imageUrl: 'https://via.placeholder.com/350x250',
+            imageUrl: 'https://snipboard.io/rUDRGb.jpg',
             projectUrl: 'https://example.com/project3',
             tags: ['Node.js', 'MongoDB']
         },
         {
             title: 'Project 3',
             description: 'Morbi fermentum, ipsum sit amet auctor tincidunt, justo quam accumsan metus, sit amet malesuada odio lorem quis neque.',
-            imageUrl: 'https://via.placeholder.com/350x250',
+            imageUrl: 'https://snipboard.io/7Bd5jA.jpg',
             projectUrl: 'https://example.com/project3',
             tags: ['Node.js', 'MongoDB']
         },
         {
             title: 'Project 3',
             description: 'Morbi fermentum, ipsum sit amet auctor tincidunt, justo quam accumsan metus, sit amet malesuada odio lorem quis neque.',
-            imageUrl: 'https://via.placeholder.com/350x250',
+            imageUrl: 'https://snipboard.io/w7QYjz.jpg',
             projectUrl: 'https://example.com/project3',
             tags: ['Node.js', 'MongoDB']
         },
         {
             title: 'Project 3',
             description: 'Morbi fermentum, ipsum sit amet auctor tincidunt, justo quam accumsan metus, sit amet malesuada odio lorem quis neque.',
-            imageUrl: 'https://via.placeholder.com/350x250',
+            imageUrl: 'https://snipboard.io/UaWme9.jpg',
             projectUrl: 'https://example.com/project3',
             tags: ['Node.js', 'MongoDB']
         },
         {
             title: 'Project 3',
             description: 'Morbi fermentum, ipsum sit amet auctor tincidunt, justo quam accumsan metus, sit amet malesuada odio lorem quis neque.',
-            imageUrl: 'https://via.placeholder.com/350x250',
-            projectUrl: 'https://example.com/project3',
-            tags: ['Node.js', 'MongoDB']
-        },
-        {
-            title: 'Project 3',
-            description: 'Morbi fermentum, ipsum sit amet auctor tincidunt, justo quam accumsan metus, sit amet malesuada odio lorem quis neque.',
-            imageUrl: 'https://via.placeholder.com/350x250',
-            projectUrl: 'https://example.com/project3',
-            tags: ['Node.js', 'MongoDB']
-        },
-        {
-            title: 'Project 3',
-            description: 'Morbi fermentum, ipsum sit amet auctor tincidunt, justo quam accumsan metus, sit amet malesuada odio lorem quis neque.',
-            imageUrl: 'https://via.placeholder.com/350x250',
+            imageUrl: 'https://snipboard.io/koXyA1.jpg',
             projectUrl: 'https://example.com/project3',
             tags: ['Node.js', 'MongoDB']
         }
