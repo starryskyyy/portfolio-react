@@ -7,7 +7,7 @@ const ProjectCard = ({ title, description, imageUrl, projectUrl }) => {
         <div className="project-card relative">
             <img src={imageUrl} alt={title} className="rounded-t-md" />
             <div className="project-info p-4">
-                <h3>{title}</h3>
+                <h3 className="pb-3 text-white">{title}</h3>
                 <p>{description}</p>
                 <br></br>
                 <a href={projectUrl} target="_blank" rel="noopener noreferrer" className="mt-4 p-2 border-solid border border-lines rounded-md bg-lines text-white text-sm">view-project</a>
@@ -21,74 +21,82 @@ export default function Projects() {
 
     const projectData = [
         {
-            title: 'Project 1',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+            title: 'PlanPerfect',
+            description: 'Comprehensive and user-friendly ToDo app for IOS users.',
             imageUrl: 'https://snipboard.io/u8YKdZ.jpg',
-            projectUrl: 'https://example.com/project1',
-            tags: ['React', 'Tailwind']
+            projectUrl: 'https://github.com/starryskyyy/PlanPerfect',
+            tags: ['Swift']
         },
+
         {
-            title: 'Project 2',
-            description: 'Nulla euismod aliquam erat, eget consectetur quam suscipit nec.',
+            title: 'Pokemons',
+            description: 'Pokemons showcase website. Each card displays name and picture of the pokemon',
             imageUrl: 'https://snipboard.io/hp0VeD.jpg',
-            projectUrl: 'https://example.com/project2',
-            tags: ['React', 'Firebase']
+            projectUrl: 'https://github.com/starryskyyy/Pokemons',
+            tags: ['React', 'JavaScript', '']
         },
         {
-            title: 'Project 3',
-            description: 'Morbi fermentum, ipsum sit amet auctor tincidunt, justo quam accumsan metus, sit amet malesuada odio lorem quis neque.',
+            title: 'The Weather App',
+            description: 'Displays current temperature, description and conditions.',
+            imageUrl: 'https://snipboard.io/sGxFon.jpg',
+            projectUrl: 'https://github.com/starryskyyy/101337015_comp3123_labtest2',
+            tags: ['React', 'Express', 'JavaScript']
+        },
+        {
+            title: 'Employee CRUD Back-End 2',
+            description: 'Backend application using NodeJS, Express, GraphQL and MongoDB',
             imageUrl: 'https://snipboard.io/67csKY.jpg',
-            projectUrl: 'https://example.com/project3',
-            tags: ['Node.js', 'MongoDB']
+            projectUrl: 'https://github.com/starryskyyy/101337015_COMP3133_Assignment1',
+            tags: ['GraphQL', 'MongoDB', 'JavaScript', 'Express']
         },
         {
-            title: 'Project 3',
-            description: 'Morbi fermentum, ipsum sit amet auctor tincidunt, justo quam accumsan metus, sit amet malesuada odio lorem quis neque.',
+            title: 'Employee CRUD Front-End',
+            description: 'ReactJS for CRUD operations using MongoDB, REST API.',
             imageUrl: 'https://snipboard.io/dc4zaZ.jpg',
-            projectUrl: 'https://example.com/project3',
-            tags: ['Node.js', 'MongoDB']
+            projectUrl: 'https://github.com/starryskyyy/101337015_comp3123_assignment2_reactjs',
+            tags: ['MongoDB', 'JavaScript', 'Express', 'React' ]
         },
         {
-            title: 'Project 3',
-            description: 'Morbi fermentum, ipsum sit amet auctor tincidunt, justo quam accumsan metus, sit amet malesuada odio lorem quis neque.',
+            title: 'Employee CRUD Back-End',
+            description: 'Backend application using NodeJS, Express and MongoDB',
             imageUrl: 'https://snipboard.io/j0M4sm.jpg',
-            projectUrl: 'https://example.com/project3',
-            tags: ['Node.js', 'MongoDB']
+            projectUrl: 'https://github.com/starryskyyy/101337015_COMP3123_Assignment1',
+            tags: ['MongoDB', 'JavaScript', 'Express']
         },
         {
-            title: 'Project 3',
-            description: 'Morbi fermentum, ipsum sit amet auctor tincidunt, justo quam accumsan metus, sit amet malesuada odio lorem quis neque.',
+            title: 'Iceium',
+            description: 'The Iceium is designed to find the nearest local ice cream shops.',
             imageUrl: 'https://snipboard.io/rUDRGb.jpg',
-            projectUrl: 'https://example.com/project3',
-            tags: ['Node.js', 'MongoDB']
+            projectUrl: 'https://github.com/starryskyyy/Iceium---FreyaHacks-hackathon',
+            tags: ['HTML', 'JavaScript']
         },
         {
-            title: 'Project 3',
-            description: 'Morbi fermentum, ipsum sit amet auctor tincidunt, justo quam accumsan metus, sit amet malesuada odio lorem quis neque.',
+            title: 'Heart Attack Prediction',
+            description: 'Machine learning hands-on heart attack prediction analysis',
             imageUrl: 'https://snipboard.io/7Bd5jA.jpg',
-            projectUrl: 'https://example.com/project3',
-            tags: ['Node.js', 'MongoDB']
+            projectUrl: 'https://github.com/starryskyyy/ML_heart_attack_prediction_analysis',
+            tags: ['Python']
         },
         {
-            title: 'Project 3',
-            description: 'Morbi fermentum, ipsum sit amet auctor tincidunt, justo quam accumsan metus, sit amet malesuada odio lorem quis neque.',
+            title: 'RecipeShare',
+            description: 'The recipe web application that helps user to plan and save recipies.',
             imageUrl: 'https://snipboard.io/w7QYjz.jpg',
-            projectUrl: 'https://example.com/project3',
-            tags: ['Node.js', 'MongoDB']
+            projectUrl: 'https://github.com/starryskyyy/RecipeShare',
+            tags: ['Java', 'Spring']
         },
         {
-            title: 'Project 3',
-            description: 'Morbi fermentum, ipsum sit amet auctor tincidunt, justo quam accumsan metus, sit amet malesuada odio lorem quis neque.',
+            title: 'GBC Sporting',
+            description: 'The GBC Sporting Technical Support website created for admins and techicians.',
             imageUrl: 'https://snipboard.io/UaWme9.jpg',
-            projectUrl: 'https://example.com/project3',
-            tags: ['Node.js', 'MongoDB']
+            projectUrl: 'https://github.com/starryskyyy/GBC-Sporting',
+            tags: ['CSharp', 'ASP']
         },
         {
-            title: 'Project 3',
-            description: 'Morbi fermentum, ipsum sit amet auctor tincidunt, justo quam accumsan metus, sit amet malesuada odio lorem quis neque.',
+            title: 'Word Unscrambler',
+            description: 'Word Unscrambler is an app that helps to unscramble the list of words.',
             imageUrl: 'https://snipboard.io/koXyA1.jpg',
             projectUrl: 'https://example.com/project3',
-            tags: ['Node.js', 'MongoDB']
+            tags: ['CSharp']
         }
     ];
 
@@ -172,8 +180,8 @@ export default function Projects() {
                                     <input
                                         type="checkbox"
                                         className="form-checkbox h-4 w-4 text-gray-600"
-                                        value="CSarp"
-                                        checked={selectedTags.includes('CSarp')}
+                                        value="CSharp"
+                                        checked={selectedTags.includes('CSharp')}
                                         onChange={handleCheckboxChange} />
                                     <div className="flex items-center pl-2 ">
                                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" className="mr-2" xmlns="http://www.w3.org/2000/svg">
@@ -236,6 +244,20 @@ export default function Projects() {
                                             <path d="M5.86576 17.3888C5.86576 17.3888 5.86576 9.618 6.12376 9.61875C6.32326 9.61875 6.58276 19.6425 6.58276 19.6425C6.22576 19.6005 5.86576 17.9933 5.86576 17.3888ZM10.8668 9.70875C10.1775 6.69675 8.66776 4.107 6.58576 2.10825L6.58051 2.10375C6.32701 1.71675 6.09526 1.27275 5.90926 0.804754L5.89126 0.753754C5.89201 0.768754 5.89201 0.786754 5.89201 0.804754C5.89201 1.2285 5.70226 1.60725 5.40301 1.8615L5.40076 1.863C2.72026 4.1385 1.01476 7.49175 0.958513 11.244V11.2538C0.957763 11.3003 0.957764 11.355 0.957764 11.4098C0.957764 15.1275 2.74651 18.4275 5.51026 20.496L5.53951 20.517L5.60476 20.5643C5.72526 21.4563 5.82826 22.3503 5.91376 23.2463H6.36451C6.48901 22.128 6.65701 21.1493 6.87676 20.1893L6.84226 20.3685C7.13926 20.1623 7.39876 19.9485 7.64101 19.7168L7.63876 19.719C9.73951 17.7713 11.0505 14.9963 11.0505 11.916C11.0505 11.8703 11.0505 11.8253 11.0498 11.7795V11.7863C11.0475 11.0505 10.9808 10.3313 10.854 9.633L10.8653 9.70725L10.8668 9.70875Z" fill="#607B96" />
                                         </svg>
                                         <p>MongoDB</p>
+                                    </div>
+                                </label>
+                                <label className="inline-flex items-center ml-4 mb-4">
+                                    <input
+                                        type="checkbox"
+                                        className="form-checkbox h-4 w-4 text-gray-600"
+                                        value="GraphQL"
+                                        checked={selectedTags.includes('GraphQL')}
+                                        onChange={handleCheckboxChange} />
+                                    <div className="flex items-center pl-2 ">
+                                        <svg width="18" height="20" className="mr-2" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M3.80991 14.2488H14.1918L9.00116 17.245L3.80991 14.2488ZM10.0849 3.38063L15.2755 6.37813V12.3719L10.0849 3.38063ZM7.91804 3.38063L2.72804 12.3719V6.37813L7.91804 3.38063ZM9.00179 3.09125L14.9843 13.4556H3.01741L9.00179 3.09125ZM9.00179 1.84063L1.93429 5.92063V14.0806L9.00179 18.1606L16.0674 14.0806V5.92063L9.00179 1.84063ZM2.32991 4.47875C1.40741 4.47875 0.659912 5.22625 0.659912 6.14875C0.659912 7.07125 1.40741 7.81875 2.32991 7.81875C3.25241 7.81875 3.99991 7.07125 3.99991 6.14875C3.99991 5.84125 3.91679 5.55313 3.77179 5.30563L3.77616 5.31375C3.48179 4.81125 2.94491 4.47875 2.32991 4.47875ZM2.32991 12.1819C2.32991 12.7144 2.76179 13.1456 3.29429 13.1456C3.82679 13.1456 4.25866 12.7138 4.25866 12.1813C4.25866 11.6488 3.82679 11.2169 3.29429 11.2169C2.76179 11.2169 2.33054 11.6481 2.32991 12.1806V12.1819ZM9.00116 16.0325C8.07866 16.0325 7.33116 16.78 7.33116 17.7025C7.33116 18.625 8.07866 19.3725 9.00116 19.3725C9.92366 19.3725 10.6712 18.625 10.6712 17.7025C10.6712 17.395 10.588 17.1069 10.443 16.8594L10.4474 16.8675C10.153 16.365 9.61616 16.0325 9.00116 16.0325ZM15.6712 12.1813C14.7487 12.1813 14.0012 12.9288 14.0012 13.8513C14.0012 14.7738 14.7487 15.5213 15.6712 15.5213C16.5937 15.5213 17.3412 14.7738 17.3412 13.8513C17.3412 13.5438 17.258 13.2556 17.113 13.0081L17.1174 13.0163C16.823 12.5138 16.2862 12.1813 15.6712 12.1813ZM15.6712 4.47875C14.7487 4.47875 14.0012 5.22625 14.0012 6.14875C14.0012 7.07125 14.7487 7.81875 15.6712 7.81875C16.5937 7.81875 17.3412 7.07125 17.3412 6.14875C17.3412 5.84125 17.258 5.55313 17.113 5.30563L17.1174 5.31375C16.823 4.81125 16.2862 4.47875 15.6712 4.47875ZM9.00116 0.627502C8.07866 0.627502 7.33116 1.375 7.33116 2.2975C7.33116 3.22 8.07866 3.9675 9.00116 3.9675C9.92366 3.9675 10.6712 3.22 10.6712 2.2975C10.6712 1.99 10.588 1.70188 10.443 1.45438L10.4474 1.4625C10.153 0.960002 9.61616 0.627502 9.00116 0.627502Z" fill="#607B96" />
+                                        </svg>
+                                        <p>GraphQL</p>
                                     </div>
                                 </label>
                                 <label className="inline-flex items-center ml-4 mb-4">
