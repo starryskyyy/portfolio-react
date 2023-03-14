@@ -278,3 +278,25 @@ img:nth-child(4) {
   color: white !important;
 }
 
+.pip {
+  width: 30px;
+  height: 30px;
+  margin: 7px;
+  background-color: #1E2D3D;
+  border-radius: 100%;
+  transition: all .3s ease-in;
+}
+
+.pip--on {
+  background-color: #43D9AD;
+  transform: scale(1.1);
+}
+
+.clock {
+  display: flex
+}
+
+.binary-digit-group {
+  display: flex;
+  margin: 0 6px;
+}
