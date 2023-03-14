@@ -69,8 +69,7 @@ export default class Home extends React.Component {
                                         wrapper="span" // Animation will be rendered as a <span>
                                         repeat={Infinity} // Repeat this Animation Sequence infinitely
                                     />
-                                    <p className="mt-6 text-secondary-1">{'//'} please enjoy the game</p>
-                                    <p className="text-secondary-1">{'//'} you can find more projects on my GitHub page</p>
+                                    <p className="text-secondary-1">{'//'} you can find more of my projects on my GitHub page</p>
                                     <p><span className="text-secondary-3">const&nbsp;</span><span class="text-accent-2">githubLink&nbsp;</span><span class="text-white">=&nbsp;</span><a class="text-accent-3" target="_blank" rel="noreferrer" href="https://github.com/starryskyyy/">"https://github.com/starryskyyy/"</a></p>
                                 </div>
 
