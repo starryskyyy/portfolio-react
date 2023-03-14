@@ -8,12 +8,19 @@
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "dotenv": "^16.0.3",
+    "dotenv-safe": "^8.2.0",
+    "emailjs-com": "^3.2.0",
+    "os": "^0.1.2",
+    "path": "^0.12.7",
     "react": "^18.2.0",
     "react-accessible-accordion": "^5.0.0",
     "react-dom": "^18.2.0",
+    "react-hook-form": "^7.43.5",
     "react-router-dom": "^6.6.1",
     "react-scripts": "5.0.1",
     "react-syntax-highlighter": "^15.5.0",
+    "react-toastify": "^9.1.1",
     "react-type-animation": "^2.1.2",
     "web-vitals": "^2.1.4"
   },
@@ -42,6 +49,7 @@
     ]
   },
   "devDependencies": {
+    "fs-extra": "^11.1.0",
     "tailwindcss": "^3.2.4"
   }
 }
