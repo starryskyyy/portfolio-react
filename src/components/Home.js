@@ -41,7 +41,7 @@ export default class Home extends React.Component {
             this.setState({
                 digits: newDigits
             });
-        }.bind(this), 1000);
+        }.bind(this));
     }
 
 

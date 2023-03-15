@@ -4,8 +4,8 @@ export default function AboutText() {
   return (
     <div className="w-full">
       <div className="border-solid border-b border-lines p-5"></div>
-      <div className="h-180 overflow-auto scrollbar-w-2 scrollbar-track-gray-200 scrollbar-thumb-gray-500 scrollbar-thumb-rounded-full ">
-        <div className="text-secondary-1 text-base p-14">1 &nbsp;&nbsp;/*<br></br>
+      <div className="text-about overflow-auto scrollbar-w-2 scrollbar-track-gray-200 scrollbar-thumb-gray-500 scrollbar-thumb-rounded-full ">
+        <div className="text-secondary-1 text-base pt-14 pl-14">1 &nbsp;&nbsp;/*<br></br>
           2     &nbsp;&nbsp;* About me<br></br>
           3     &nbsp;&nbsp;*<br></br>
           4     &nbsp;&nbsp;* I am a current student at George Brown College<br></br>

@@ -319,7 +319,7 @@ export default function Projects() {
                                 </label>
                             </div>
                         </div>
-                        <div className="w-full overflow-y-scroll h-200">
+                        <div className="w-full overflow-y-scroll h-200 my-projects">
                             <div className="border-solid border-b border-lines p-5"></div>
                             <div className="flex flex-wrap">
                                 {projectData.map((project, index) => (

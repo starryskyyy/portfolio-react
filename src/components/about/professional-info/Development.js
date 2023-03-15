@@ -4,7 +4,7 @@ export default function Development() {
   return (
     <div className=" w-full h-full">
       <div className="border-solid border-b border-lines p-5"></div>
-      <div className="h-180 overflow-auto crollbar-w-2 scrollbar-track-gray-200 scrollbar-thumb-gray-500 scrollbar-thumb-rounded-full ">
+      <div className="h-180 dev-info overflow-auto crollbar-w-2 scrollbar-track-gray-200 scrollbar-thumb-gray-500 scrollbar-thumb-rounded-full ">
         <div className="text-secondary-1 text-base p-10">
         <div className="flex items-center">
             <svg

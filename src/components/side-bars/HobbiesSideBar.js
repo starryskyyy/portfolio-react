@@ -75,7 +75,7 @@ export default function HobbiesSideBar() {
                     </Accordion.Root>
                 </div>
                 <div className="h-full w-1/2 border-solid border-r border-lines">{activeComponent}</div>
-                <div className="p-10 w-1/2"><CodeShowcase/></div>
+                <div className="pt-10 pl-4 w-1/2"><CodeShowcase/></div>
             </div>
         </div >
     )

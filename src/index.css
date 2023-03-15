@@ -300,3 +300,30 @@ img:nth-child(4) {
   display: flex;
   margin: 0 6px;
 }
+
+.text-about{
+  height: 45rem;
+}
+
+@media only screen and (max-height: 860px) {
+  .text-about{
+    height: 35rem;
+  }
+  .code-showcase{
+    font-size: 80%;
+  }
+  .code-box{
+    height: 100vh;
+  }
+}
+
+@media only screen and (max-height: 900px) {
+  .dev-info{
+    height: 35rem;
+  }
+}
+@media only screen and (max-height: 935px) {
+  .my-projects{
+    height: 35rem;
+  }
+}

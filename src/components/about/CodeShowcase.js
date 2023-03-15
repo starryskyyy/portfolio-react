@@ -40,17 +40,19 @@ export default function CodeShowcase() {
         'punctuation': { color: '#E99287' }, // style for brackets
     };
     return (
-        <div className="w-full h-full text-secondary-1">
-            <div className="flex items-center pl-6 pb-2">
-                <img src={myPhoto} alt="pic of me" />
-                <p className="ml-4 text-secondary-3 font-semibold text-sm">@starryskyyy</p>
-            </div>
-            <p className="pl-16 text-sm">API fetching pokemons</p>
-            <div className="w-5/6 m-10 bg-primary-3 h-4/5 border-solid border border-lines rounded-md">
-                <div className="text-sm pt-6" >
-                    <SyntaxHighlighter language="javascript" style={customStyle}>
-                        {code}
-                    </SyntaxHighlighter>
+        <div className="text-about overflow-auto scrollbar-w-2 scrollbar-track-gray-200 scrollbar-thumb-gray-500 scrollbar-thumb-rounded-full ">
+            <div className="w-full h-full code-box  text-secondary-1">
+                <div className="flex items-center pl-6 pb-2">
+                    <img src={myPhoto} alt="pic of me" />
+                    <p className="ml-4 text-secondary-3 font-semibold text-sm">@starryskyyy</p>
+                </div>
+                <p className="pl-16 text-sm">API fetching pokemons</p>
+                <div className="w-5/6 m-10 bg-primary-3 h-4/5 border-solid border border-lines rounded-md">
+                    <div className="text-sm pt-6" >
+                        <SyntaxHighlighter language="javascript" style={customStyle} className="code-showcase">
+                            {code}
+                        </SyntaxHighlighter>
+                    </div>
                 </div>
             </div>
         </div>
