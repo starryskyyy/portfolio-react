@@ -21,6 +21,13 @@ export default function Projects() {
 
     const projectData = [
         {
+            title: 'Portfolio',
+            description: 'My personal porftolio to demonstrate my skills.',
+            imageUrl: 'https://snipboard.io/BNEULb.jpg',
+            projectUrl: 'https://github.com/starryskyyy/portfolio-react',
+            tags: ['React', 'JavaScript']
+        },
+        {
             title: 'PlanPerfect',
             description: 'Comprehensive and user-friendly ToDo app for IOS users.',
             imageUrl: 'https://snipboard.io/u8YKdZ.jpg',
