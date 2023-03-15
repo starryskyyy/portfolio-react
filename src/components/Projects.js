@@ -23,7 +23,7 @@ export default function Projects() {
         
         {
             title: 'Portfolio',
-            description: 'My personal porftolio to demonstrate my skills.',
+            description: 'My personal porftolio to demonstrate my coding skills.',
             imageUrl: 'https://snipboard.io/BNEULb.jpg',
             projectUrl: 'https://github.com/starryskyyy/portfolio-react',
             tags: ['React', 'JavaScript']
