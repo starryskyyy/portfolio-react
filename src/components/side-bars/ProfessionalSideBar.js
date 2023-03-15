@@ -4,6 +4,7 @@ import { TriangleRightIcon } from '@radix-ui/react-icons';
 import Development from '../about/professional-info/Development';
 import Skills from '../about/professional-info/Skills';
 import Certificates from '../about/professional-info/Certificates';
+import Awards from '../about/professional-info/Awards';
 import Resume from '../about/professional-info/Resume';
 import CodeShowcase from '../about/CodeShowcase';
 
@@ -32,6 +33,12 @@ export default function ProfessionalSideBar() {
         },
         {
             id: 4,
+            name: "awards",
+            svgPath: "M12 7a8 8 0 1 1 0 16 8 8 0 0 1 0-16zm0 3.5l-1.323 2.68-2.957.43 2.14 2.085-.505 2.946L12 17.25l2.645 1.39-.505-2.945 2.14-2.086-2.957-.43L12 10.5zm1-8.501L18 2v3l-1.363 1.138A9.935 9.935 0 0 0 13 5.049L13 2zm-2 0v3.05a9.935 9.935 0 0 0-3.636 1.088L6 5V2l5-.001z",
+            color: "#FEA55F"
+        },
+        {
+            id: 5,
             name: "resume",
             svgPath: "M16 2l5 5v14.008a.993.993 0 0 1-.993.992H3.993A1 1 0 0 1 3 21.008V2.992C3 2.444 3.445 2 3.993 2H16zm1.657 10L14.12 8.464 12.707 9.88 14.828 12l-2.12 2.121 1.413 1.415L17.657 12zM6.343 12l3.536 3.536 1.414-1.415L9.172 12l2.12-2.121L9.88 8.464 6.343 12z",
             color: "rgba(201,139,223,1)"
@@ -53,6 +60,9 @@ export default function ProfessionalSideBar() {
             activeComponent = <Certificates />;
             break;
         case 4:
+            activeComponent = <Awards/>;
+            break;
+        case 5:
             activeComponent = <Resume />
             break;
         default:
@@ -86,7 +96,7 @@ export default function ProfessionalSideBar() {
                     </Accordion.Root>
                 </div>
                 <div className="h-full w-1/2 border-solid border-r border-lines">{activeComponent}</div>
-                <div className="pt-10 pl-4 w-1/2"><CodeShowcase/></div>
+                <div className="pt-10 pl-4 w-1/2"><CodeShowcase /></div>
             </div>
         </div>
     )
