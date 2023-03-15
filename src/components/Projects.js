@@ -20,12 +20,20 @@ export default function Projects() {
 
 
     const projectData = [
+        
         {
             title: 'Portfolio',
             description: 'My personal porftolio to demonstrate my skills.',
             imageUrl: 'https://snipboard.io/BNEULb.jpg',
             projectUrl: 'https://github.com/starryskyyy/portfolio-react',
             tags: ['React', 'JavaScript']
+        },
+        {
+            title: 'DoForYou',
+            description: 'A service that helps to solve everyday and business problems.',
+            imageUrl: 'https://snipboard.io/8vESVI.jpg',
+            projectUrl: 'https://github.com/Hoon-Yim/DoForYou',
+            tags: ['React', 'JavaScript', 'Express', 'MongoDB']
         },
         {
             title: 'PlanPerfect',
@@ -40,7 +48,7 @@ export default function Projects() {
             description: 'Pokemons showcase website. Each card displays name and picture of the pokemon',
             imageUrl: 'https://snipboard.io/hp0VeD.jpg',
             projectUrl: 'https://github.com/starryskyyy/Pokemons',
-            tags: ['React', 'JavaScript', '']
+            tags: ['React', 'JavaScript']
         },
         {
             title: 'The Weather App',
