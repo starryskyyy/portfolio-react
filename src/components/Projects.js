@@ -37,7 +37,7 @@ export default function Projects() {
         },
         {
             title: 'PlanPerfect',
-            description: 'Comprehensive and user-friendly ToDo app for IOS users.',
+            description: 'Comprehensive and user-friendly ToDo app for IOS users. (in-progress)',
             imageUrl: 'https://snipboard.io/u8YKdZ.jpg',
             projectUrl: 'https://github.com/starryskyyy/PlanPerfect',
             tags: ['Swift']
@@ -100,6 +100,14 @@ export default function Projects() {
             tags: ['Java', 'Spring']
         },
         {
+            title: 'Airline Manager GUI',
+            description: 'The group project designed to simplify airline operations management.',
+            imageUrl: 'https://snipboard.io/kFq0Lc.jpg',
+            projectUrl: 'https://github.com/starryskyyy/AirlineGUI',
+            tags: ['CSharp']
+        }, 
+        
+        {
             title: 'GBC Sporting',
             description: 'The GBC Sporting Technical Support website created for admins and techicians.',
             imageUrl: 'https://snipboard.io/UaWme9.jpg',
@@ -112,7 +120,14 @@ export default function Projects() {
             imageUrl: 'https://snipboard.io/koXyA1.jpg',
             projectUrl: 'https://example.com/project3',
             tags: ['CSharp']
-        }
+        },
+        {
+            title: 'Student Manager Console',
+            description: 'The app utilizes OOP principles to manage student data.',
+            imageUrl: 'https://snipboard.io/pB76Yi.jpg',
+            projectUrl: 'https://github.com/starryskyyy/Student-Manager-Console/',
+            tags: ['CSharp']
+        },
     ];
 
 
