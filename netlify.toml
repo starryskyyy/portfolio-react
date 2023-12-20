@@ -1,4 +1,5 @@
 [[redirects]]
   from = "/*"
   to = "/src/components/404.js"
+  force = true
   status = 200
