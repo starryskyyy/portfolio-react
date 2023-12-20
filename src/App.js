@@ -12,6 +12,7 @@ function App() {
     <>
         <Routes>
           <Route path="/" element={<UnderConstruction />} />
+          <Route path="*" component={NoMatch} />
            {/*<Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
