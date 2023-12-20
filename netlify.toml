@@ -1,4 +1,0 @@
-[[redirects]]
-  from = "/*"
-  to = "/build/src/components/404.js"
-  status = 404
